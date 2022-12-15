@@ -1,0 +1,24 @@
+{
+    "name": "typesetsh/font-noto-cjk-sub",
+    "description": "Google Noto CJK Substitute package for smaller package size",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jacob Siefer",
+            "email": "mail@jsiefer.de"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Typesetsh\\Noto\\": [
+                "src/"
+            ]
+        }
+    },
+    "replace": {
+        "typesetsh/font-noto-cjk": "*"
+    }
+}
